@@ -1,6 +1,6 @@
 # Personal-Data-Science-Cookbook
 
-My personal data science toolkit - notebooks and templates for common data science techniques including machine learning, clustering, forecasting, statistical modeling, and model interpretability methods. It's a work in progress, I'll continue to add to it over time. All are welcome you use the code for your own projects. I hope it's helpful!
+My personal data science repo with code examples for common data science tasks including machine learning, clustering, forecasting, statistical modeling, and model interpretability methods. It's a work in progress, I'll continue to add to it over time. All are welcome you use the code for your own projects. I hope it's helpful!
 
 
 <br>
