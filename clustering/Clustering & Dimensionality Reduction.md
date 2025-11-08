@@ -41,7 +41,7 @@ date_modfied: 2025-09-21
 
 
 
-> [!summary] Reference Material
+> [!NOTE] Reference Material
 > - Clustering Notebooks: https://drive.google.com/drive/folders/1v4Ayn8ZWFZItrIeSsF9lSrRIWPbgKtbp?dmr=1&ec=wgc-drive-hero-goto
 > 	- Churn Customer Clustering Demo: [churn_customer_clustering_demo.ipynb](https://colab.research.google.com/drive/1-aXK4AtVKMVfBrs245LR4nIeoc4AQ26Q#scrollTo=a780d4f8)
 > 	- Kmeans Yellowbrick Demo: [kmeans_yellowbrick_demo.ipynb](https://colab.research.google.com/drive/1T2N3pN3nknW4TjBzjX3-ibzh2oQoGwGd)
@@ -89,7 +89,7 @@ date_modfied: 2025-09-21
 
 <br>
 
-> [!tip] Inertia Summary
+> [!NOTE] Inertia Summary
 >- Definition: Sum of squared distances from each point to its cluster centroid
 >- Also called: Within-Cluster Sum of Squares (WCSS) or distortion score
 >- What it measures: How tightly packed clusters are (cohesion only)
@@ -106,7 +106,7 @@ Where xᵢ is data point i, cⱼ is the centroid of cluster j that contains poin
 
 ### Silhouette
 
-> [!tip] Silhouette Summary
+> [!NOTE] Silhouette Summary
 > - The silhouette score is a popular metric for evaluating clustering quality that measures how well-separated and cohesive your clusters are.
 > - Better for finding optimal number of clusters
 > 	- Cohesion: How close points are to others in their own cluster
@@ -134,7 +134,7 @@ Where xᵢ is data point i, cⱼ is the centroid of cluster j that contains poin
 `yellowbrick`: https://www.scikit-yb.org/en/latest/api/cluster/silhouette.html
 `scikit-learn`: manual
 
-![[silhouette_plot.png]]
+![](./images/silhouette_plot.png)
 
 **Interpretation:**
 - Each data point/score is a line, more width = more data points
@@ -142,7 +142,7 @@ Where xᵢ is data point i, cⱼ is the centroid of cluster j that contains poin
 - Assess avg. score across clusters
 - Assess points within clusters with low scores
 
-![[silhoette_score.png]]
+![](./images/silhoette_score.png)
 
 <br>
 
@@ -204,7 +204,8 @@ Where xᵢ is data point i, cⱼ is the centroid of cluster j that contains poin
 
 ## Summary
 
-![[Kmeans_summary.png]]
+![](./images/Kmeans_summary.png)
+
 
 <br>
 
@@ -216,7 +217,7 @@ Where xᵢ is data point i, cⱼ is the centroid of cluster j that contains poin
 
 <br>
 
-> [!summary] Reference Material
+> [!NOTE] Reference Material
 > - Colab Notebooks: [Click Here](https://drive.google.com/drive/folders/1uUPF35h6HXqrg7fPRbTU6jFzAQKS50Js?dmr=1&ec=wgc-drive-hero-goto)
 > 	- [agglomerative_clustering_scipy_demo_1.ipynb](https://colab.research.google.com/drive/1AWe7T-T-BbXDj0NTeuDYNishauERN0ke)
 > 	- [agglomerative_clustering_scipy_demo_2.ipynb](https://colab.research.google.com/drive/11lhVoxGiJNWMJ3-T3NzfrB_LOiD0zPgj)
@@ -240,7 +241,7 @@ Where xᵢ is data point i, cⱼ is the centroid of cluster j that contains poin
 
 ## Dendrograms
 
-![[Dendrogram_parts.png]]
+![](./images/Dendrogram_parts.png)
 
 <br>
 
@@ -275,7 +276,7 @@ Where xᵢ is data point i, cⱼ is the centroid of cluster j that contains poin
 
 <br>
 
-![[agglomerative_clustering_scipy.png]]
+![](./images/agglomerative_clustering_scipy.png)
 
 <br>
 
@@ -287,14 +288,15 @@ Where xᵢ is data point i, cⱼ is the centroid of cluster j that contains poin
 
 <br>
 
-![[agglomerative_sklearn.png]]
+![](./images/agglomerative_sklearn.png)
 
 <br>
 
 
 ## Summary
 
-![[Agglomerative_summary.png]]
+![](./images/Agglomerative_summary.png)
+
 <br>
 
 
@@ -303,7 +305,7 @@ Where xᵢ is data point i, cⱼ is the centroid of cluster j that contains poin
 
 <br>
 
-> [!summary] Reference Material
+> [!NOTE] Reference Material
 > - Google Drive: https://drive.google.com/drive/folders/1GywIIIkqTC03750hWCBRO71bcMYqeh-I?dmr=1&ec=wgc-drive-hero-goto
 > - DBSCAN From Scratch: [1_DBSCAN_from_scratch.ipynb](https://colab.research.google.com/drive/17s0e7LmQl4-MV9Si3Y2hR0gkOYZS-qOy)
 > 	- Includes `sklearn.neighbors.NearestNeighbors` overview
@@ -429,7 +431,9 @@ Tuning DBSCAN Parameters: [2_Tuning_DBSCAN_parameters.ipynb](https://colab.resea
 
 ### Cluster Validation Coefficient
 
-![[dbcv.png]]
+![](./images/dbcv.png)
+
+
 <br>
 
 <br>
@@ -512,7 +516,7 @@ Tuning DBSCAN Parameters: [2_Tuning_DBSCAN_parameters.ipynb](https://colab.resea
 <br>
 
 
-![[PCA_summary.png]]
+![](./images/PCA_summary.png)
 
 
 <br>
@@ -584,6 +588,7 @@ import umap.plot as umap_plot
 
 ## Summary
 
-![[UMAP_summary.png]]
+![](./images/UMAP_summary.png)
+
 
 ---
